@@ -4,7 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Find the Max Num of 3 Variables Program ");
+            FindMaximum<int> obj = new FindMaximum<int>(55, 43, 89);
+            obj.MaxMethod();
+
         }
     }
 }
